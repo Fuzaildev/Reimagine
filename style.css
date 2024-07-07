@@ -47,7 +47,7 @@ header {
 
 
 .logo img {
-    height: 4vh;
+    height: 10vh;
     padding-left: 2rem;
 }
 
@@ -219,8 +219,8 @@ header {
     }
 
     .logo img {
-        height: 3vh;
-
+        height: 8vh;
+        padding-left: 0;
     }
 }
 
@@ -325,25 +325,6 @@ header {
     transition: all 200ms linear;
 }
 
-/* Cursor */
-/* #cursor {
-    height: 7.5vw;
-    width: 7.5vw;
-    background-color: #000000;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#cursor h5 {
-    color: #fff;
-    font-size: 0.5rem;
-    font-weight: 500;
-} */
 
 /* carousel */
 
@@ -409,7 +390,7 @@ header {
     transform: translateY(-50%);
     width: 400px;
     text-align: left;
-    color: #fff;
+    color: #0b9e7e;
     display: none;
 }
 
@@ -433,7 +414,7 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
-    text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.8);
+    text-shadow: 3px 4px 4px rgba(10, 221, 158, 0.8);
 
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
@@ -461,7 +442,7 @@ header {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    border: 2px solid #fff;
+    border: 2px solid #0b9e7e;
 }
 
 .content .btn button:nth-child(1) {
@@ -471,13 +452,13 @@ header {
 .content .btn button:nth-child(2) {
     background: transparent;
     color: #000000c5;
-    border: 2px solid #fff;
+    border: 2px solid #0b9e7e;
     transition: 0.3s;
 }
 
 .content .btn button:nth-child(2):hover {
     background-color: #000000c5;
-    color: #fff;
+    color: #0b9e7e;
     border-color: #000000c5;
 }
 
@@ -847,6 +828,15 @@ header {
     /* overflow: hidden; */
     /* display: block; */
     margin: auto;
+}
+
+@media screen and (max-width:780px) {
+    .video{
+        height: 100vh;
+        width: 100vw;
+        margin-top: -320px;
+        margin-bottom: -300px;
+    }
 }
 
 /* IMAGE AND SHOES */
